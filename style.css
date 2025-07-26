@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: pink;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+nav{
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav img{
+    width: 100px;
+    height: auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+      color: black;
+}
+
+nav ul li{
+    margin: 0 15px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+nav ul li:hover{
+    color: #ffffff;
+    background-color: deepskyblue;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+nav button{
+    padding: 7px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 15px;
+}
+
+nav button:hover{
+    background-color: lightblue;
+    color: #ffffff;
+}
+
+/* body part--*/
+
+section{
+    text-align: center;
+    padding: 20px 0;
+}
+
+section h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Winky Rough', cursive;
+}
+
+section h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+section p{
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div input{
+    padding: 10px 60px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    
+}
+
+section div button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightblue;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* footer section */
+
+footer{
+    text-align: center;
+    margin: 100px 0px;
+}
+
+footer p{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
